@@ -6,6 +6,7 @@ public abstract class User {
     protected String email;
     protected String password;
     protected String userType;
+
     public enum USER_TYPES {
         CONSUMER,
         RETAILER,
